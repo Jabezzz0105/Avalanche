@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Coaching</title>
+  <style>
+    
+    body {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7fdf7;
+      color: #333;
+      font-size: larger;
+    }
+    header {
+      background-color: #4ade80;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      font-size: 1.5rem;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    main img {
+      max-width: 400px;
+      margin-bottom: 1rem;
+      animation: fadeIn 2s;
+    }
+    main p {
+      font-size: 40px;
+      margin-bottom: 5px;
+    }
+    ul {
+      text-align: left;
+      max-width: 600px;
+      margin: 1rem auto;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    button {
+      background-color: #4ade80;
+      border: none;
+      padding: 0.8rem 1.2rem;
+      font-size: 1.5rem;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: transform 0.3s ease;
+    }
+    button:hover {
+      transform: scale(1.05);
+    }
+    .pc-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+      width: 100%; 
+    }
+    .pc-images .row {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      width: 100%;
+    }
+    .pc-images img {
+      max-width: 400px;
+      margin-bottom: 1px;
+      max-height: 200px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .pc-images img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    header {
+    text-align: center;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.logo-text {
+    color: white;
+    font-size: 1.5rem;  /* Adjust size if needed */
+    text-decoration: none;  /* Removes underline */
+    margin-left: -10px; 
+    margin-top: -40px; /* Adjust position of "Home" text */
+    transition: color 0.3s ease;
+}
+
+.logo-text:hover {
+    color: #22c55e;  /* Optional hover effect */
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none; /* Remove underline from the link */
+}
+
+h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.arrows {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 50%;
+      width: 100%;
+      transform: translateY(-50%);
+      z-index: 1000;
+      padding: 0 20px;
+    }
+    .arrow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 65px;
+      height: 65px;
+      background: linear-gradient(145deg, #4ade80, #34d399);
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-size: 40px;
+      
+      color: white;
+      text-decoration: none;
+    }
+    .arrow:hover {
+      transform: scale(1.1);
+      background: linear-gradient(145deg, #22c55e, #16a34a);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    }
+    .arrow.left::before {
+      content: "⮜";
+    }
+    .arrow.right::before {
+      content: "⮞";
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+        <a href="index.html">
+            <img src="images/logowhite.png" class="logo">
+            <span class="logo-text">Home</span>
+        </a>
+        
+        <h1>Personal Coaching</h1>
+    </div>
+</header>
+  <main>
+    <div class="pc-images">
+      <!-- Row for the first three images -->
+      
+      <div class="row">
+        <img src="images/pc3.png" alt="Course Image 1">
+        <img src="images/pc2.png" alt="Course Image 2">
+        <img src="images/pc3.png" alt="Course Image 3">
+      </div>
+      
+      </div>
+   
+    <p>Accelerate your learning with 1-on-1 personal coaching sessions.</p>
+    <p>Benifits of joining our coaching session:</p>
+    <ul>
+      <li>Customized lessons based on your current skill level and goals.</li>
+      <li>Step-by-step guidance from an experienced mentor.</li>
+      <li>Opportunity to ask questions and clarify doubts in real-time.</li>
+      <li>Access to personalized learning materials and tools.</li>
+      <li>Helps you understand financial markets.</li>
+    </ul>
+    <button>Book a Session</button>
+  </main>
+
+  <div class="arrows">
+    <a href="courses.html" class="arrow left"></a>
+    <a href="live-session.html" class="arrow right"></a>
+  </div>
+</body>
+</html>

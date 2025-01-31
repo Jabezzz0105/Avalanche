@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avalanche | Best Trading Mentorship</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img class="logo" src="images/logo.png">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about us">About us</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div>
+            
+            <h1>Master your Emotions, Master your Trade!</h1>
+            <p>Your mentorship journey begins with expert trading insights.</p>
+            <button id="startNowBtn">Start Now</button>
+        </div>
+    </section>
+
+
+    <div id="startNowModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="startNowCloseBtn">&times;</span>
+            <h2>Sign Up to Get Started</h2>
+            <p>Fill in the details to sign up for a free trial or membership.</p>
+            <form>
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <section id="about" class="content-section">
+        <h2>TRADING STAGES</h2>
+        <p>We provide unparalleled market insights and mentorship programs that empower traders to make informed decisions.</p>
+    </section>
+
+    <section id="about-market-lens">
+        <div class="diagram">
+            <div class="box">Consolidation</div>
+            <div class="text">Liquidity Engineered</div>
+            <div class="arrow"></div>
+    
+            <div class="box">HTF POI</div>
+            <div class="text">Price moves into HTF POI</div>
+            <div class="text">Liquidity Draw Reversal Zone</div>
+            <div class="arrow"></div>
+    
+            <div class="box">SMR</div>
+            <div class="text">LTF ENTRY MODEL</div>
+            <div class="text">Execution</div>
+            <div class="arrow"></div>
+    
+            <div class="box">Objective</div>
+            <div class="text">Price returns to consolidation</div>
+            <div class="text">Take Profit</div>
+        </div>
+    </section>
+
+    <section id="pricing" class="content-section">
+        <h2>Choose Your Plan</h2>
+        <div class="pricing">
+            <div class="pricing-box">
+                <h3>Monthly</h3>
+                <p>$50 per month</p>
+                <button class="signUpBtn">Sign Up</button>
+            </div>
+            <div class="pricing-box">
+                <h3>Quarterly</h3>
+                <p>$175 per quarter</p>
+                <button class="signUpBtn">Sign Up</button>
+            </div>
+            <div class="pricing-box">
+                <h3>Lifetime</h3>
+                <p>$1,000 once</p>
+                <button class="signUpBtn">Sign Up</button>
+            </div>
+        </div>
+
+        <div class="additional-features">
+            <h3>Benefits You Get</h3>
+            <ul>
+                <li>Private Community</li>
+                <li>Complete Courses</li>
+                <li>Livestream Events</li>
+                <li>Market Updates</li>
+                <li>Personal Coaching</li>
+                <li>24/7 Support</li>
+            </ul>
+        </div>
+    </section>
+
+    
+    <div id="signUpModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="signUpCloseBtn">&times;</span>
+            <h2>Sign Up for Your Chosen Plan</h2>
+            <form>
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <section id="services" class="content-section">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-box">
+                <a href="courses.html" class="service-link">
+                <img src="images/courses.png" alt="Courses">
+                <h3>Courses</h3>
+                <p>Learn a profitable trading strategy with PDF, video, and other resources.</p>
+            </div>
+            <div class="service-box">
+                <a href="personal-coaching.html" class="service-link">
+                <img src="images/perco.png" alt="Personal Coaching">
+                <h3>Personal Coaching</h3>
+                <p>Have the option to expedite your learning process through personalized coaching calls at an additional fee. These meetings are planned in advance for direct lessons and custom content.</p>
+            </div>
+            <div class="service-box">
+                <a href="live-session.html" class="service-link">
+                <img src="images/lss.png" alt="Livestream Sessions">
+                <h3>Livestream Sessions</h3>
+                <p>Study through watching weekly livestreams on relevant trading topics. All events are scheduled in advance and recorded for the best viewing experience.</p></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <div id="about-us-container">
+    <section id="about us" class="about-us-content">
+        
+            <h2>About Us</h2>
+           <p>Welcome to Avalanche! Meet the passionate team behind this project, 
+            dedicated to creating an intuitive and seamless online platform for mentorship and trading enthusiasts.</p>
+            <br>
+        <h3><a href="https://www.facebook.com/lander.jabez.domingo.2024" class="no-link">Lander Jabez Domingo</a>
+        </h3>
+        <h4>Title: Leader / Mentor</h4>
+        <p>
+            Lander is the mastermind behind the concept and context of this website.
+             As one of the developers, he has played a vital role in shaping the vision and functionality of this platform.</p>
+             <br>
+         <h3><a href="https://www.facebook.com/ml.naml.165/" class="no-link">Carl Lester Roduta</a></h3>
+         <h4>Title: Co-Leader / Developer</h4>
+        <p>
+            Lester is a key contributor to the website’s core idea and design. 
+            His expertise as a developer has been instrumental in bringing the vision to life.</p>
+            <br>
+            <h3><a href="https://www.facebook.com/janriiiiiii" class="no-link">Jhon Rhey Bautista</a></h3>
+            <h4>Title: Web Designer</h4>
+            <p>
+                Jhon Rhey connects the dots by linking images and pages, ensuring every
+                 design element aligns perfectly. His creativity powers the visual structure of our website.</p>
+                 <br>
+                 <h3><a href="https://www.facebook.com/gabriel.santos.400233" class="no-link">Gabriel Santos</a></h3>
+                 <h4>Title: Website Designer</h4>
+                 <p>
+                    Gabo specializes in making the interface not just functional but visually 
+                    appealing. His designs enhance user experience and leave a lasting impression.</p>
+                    <br>
+                    <h3><a href="https://www.facebook.com/profile.php?id=61563072553896" class="no-link">John Kenzhin Martinez</a></h3>
+                    <h4>Title: Website Debugger & Developer</h4>
+                    
+                    <p>
+                        Kenzhin ensures the website runs smoothly. He is the go-to expert for debugging and
+                         troubleshooting any issues, ensuring everything works flawlessly.
+                        </p>
+                        <br>
+                        <p>Together, we are committed to providing a platform that inspires learning, growth, and success in mentorship trading.</p>
+    </section>
+</div>
+
+    <footer>
+        <p>&copy; 2025 The Market Lens. All rights reserved.</p>
+        <p>
+            Follow us on 
+            <a href="https://www.facebook.com/profile.php?id=61572357998695"target="_blank">Facebook</a>, 
+
+        </p>
+    </footer>
+
+    <script>
+        // Get the modals
+        var startNowModal = document.getElementById("startNowModal");
+        var signUpModal = document.getElementById("signUpModal");
+
+        // Get the buttons that opens the modal
+        var startNowBtn = document.getElementById("startNowBtn");
+        var signUpBtns = document.querySelectorAll(".signUpBtn");
+
+        // Get the <span> elements that close the modal
+        var startNowCloseBtn = document.getElementById("startNowCloseBtn");
+        var signUpCloseBtn = document.getElementById("signUpCloseBtn");
+
+        // When the user clicks the "Start Now" button, open the modal
+        startNowBtn.onclick = function() {
+            startNowModal.style.display = "flex";
+        }
+
+        // When the user clicks the "Sign Up" button in pricing section, open the modal
+        signUpBtns.forEach(function(btn) {
+            btn.onclick = function() {
+                signUpModal.style.display = "flex";
+            }
+        });
+
+        // When the user clicks on <span> (x), close the modal
+        startNowCloseBtn.onclick = function() {
+            startNowModal.style.display = "none";
+        }
+
+        signUpCloseBtn.onclick = function() {
+            signUpModal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside the modal, close it
+        window.onclick = function(event) {
+            if (event.target === startNowModal) {
+                startNowModal.style.display = "none";
+            }
+            if (event.target === signUpModal) {
+                signUpModal.style.display = "none";
+            }
+        }
+    </script>
+
+<script>
+    document.addEventListener("scroll", () => {
+        const elements = document.querySelectorAll(".box, .arrow, .text");
+        const triggerBottom = window.innerHeight * 0.8;
+
+        elements.forEach((element, index) => {
+            const boxTop = element.getBoundingClientRect().top;
+            if (boxTop < triggerBottom) {
+                setTimeout(() => {
+                    element.classList.add("visible");
+                }, index * 100); // Slight delay for popping effect
+            } else {
+                element.classList.remove("visible");
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
